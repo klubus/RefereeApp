@@ -1,0 +1,59 @@
+{
+  "dependencies": {
+    "apis1": {
+      "restored": true,
+      "restoreTime": "2022-05-16T15:52:50.5620641Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2022-05-16T15:52:43.3454031Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "ff272f92-a63e-4d0d-96e4-34252d9eb1b7"
+    },
+    "RefereeAppService.resourceName": {
+      "Name": "RefereeAppService.resourceName",
+      "Type": null,
+      "Value": "RefereeAppService"
+    },
+    "RefereeAppService.subscriptionId": {
+      "Name": "RefereeAppService.subscriptionId",
+      "Type": "subscription",
+      "Value": "ff272f92-a63e-4d0d-96e4-34252d9eb1b7"
+    },
+    "RefereeAppService.resourceGroupName": {
+      "Name": "RefereeAppService.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "refereeApp"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "refereeApp"
+    },
+    "subscriptionId": {
+      "Name": "subscriptionId",
+      "Type": "subscription",
+      "Value": "ff272f92-a63e-4d0d-96e4-34252d9eb1b7"
+    },
+    "apis1.resourceGroupLocation": {
+      "Name": "apis1.resourceGroupLocation",
+      "Type": "location",
+      "Value": "centralus"
+    },
+    "RefereeAppService.resourceGroupLocation": {
+      "Name": "RefereeAppService.resourceGroupLocation",
+      "Type": null,
+      "Value": "centralus"
+    },
+    "apis1.resourceGroupName": {
+      "Name": "apis1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "refereeApp"
+    }
+  }
+}

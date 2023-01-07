@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAhYRZJGKsS06AtA5LU0RDoQAAAAACAAAAAAAQZgAAAAEAACAAAABHFU/YHKsY4AZjK8biJfzua0V2A/vz/TCxSGPxAuwACAAAAAAOgAAAAAIAACAAAAA5bRrPs7r/smfVrKbh6b+zTE2UlvfgkWD7kTIMZUW7VoAAAAArHHO+S5prv6XlmPi6Ac59OUtNdZZaVXfdV2JF3R7htoEqBKtDbeqZQFlH21vZmV2f+VOf99h8OCX9yfQL3AD9vwkGK0YdErtYV0mwX8lgdlRJJNdVx5itc1OFCgdfxz8MKZu5Ndjzu8dKiOWKxqD/8xFoHAyY2ym/NnfGJ5pKD0AAAADDkdZMCx9FHRSNGtymPtjACvXn4EOB3sWmG/a5BHyfv8P0wwnj0lo9Xg2obYAx+msjivi2k9+eUPjE9eWaOeCv</EncryptedPassword>
+    <History>False|2022-05-17T19:24:38.0654838Z;False|2022-05-17T14:51:33.6864513+02:00;False|2022-05-17T14:48:38.3749424+02:00;False|2022-05-17T14:47:57.0343925+02:00;False|2022-05-17T14:43:50.2826443+02:00;False|2022-05-17T14:40:58.6961279+02:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="RefereeAppContext">
+      <Value>Data Source=tcp:refereeapp.database.windows.net,1433%3bInitial Catalog=refereeApp%3bUser Id=ownsedzia%40refereeapp%3bPassword=aA12#456</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="WebAPI.Models.AuthenticationContext">
+      <Value>Data Source=tcp:refereeapp.database.windows.net,1433%3bInitial Catalog=refereeApp%3bUser Id=ownsedzia%40refereeapp%3bPassword=aA12#456</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
